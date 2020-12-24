@@ -1,0 +1,48 @@
+Upstart vs systemd
+after kernel is booted what the next steps happens? init 1 etc
+What is $?
+
+#kill PROCESS_NAME
+#echo $? 
+0 
+Are you sure with that the process is stopped?
+
+zombie processes, what is it, are they really running?
+process vs threads
+docker entrypoint.sh
+
+#! /bin/bash
+./app
+vs
+exec ./app
+
+What is the difference and issues? What if we send signal for reload this docker container
+
+Decode top (load, %wa)
+Decode free -m, how much memory is available?
+What is inode
+How to find who locks the partition so we need to unmont that
+
+Network questions:
+
+TCP vs UDP
+TCP 3-way handshake
+What is TCP slow-start?
+What is VLAN (security considerations)
+How to see network connections, opened ports (tell about other tools except netstat)?
+
+Python questions:
+
+list vs tuple
+What is args, *kwargs in function definition? Could it be named different?
+Parameters in python by values or references
+What actually is @blablabla before function?
+Python memory management (difference with C)
+Two references to one dict, change one value, what happens?
+
+Other
+
+How to migrate legacy C app to the new linux machine?
+mutex vs semaphores
+
+
